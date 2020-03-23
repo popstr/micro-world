@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+service Names {
+	rpc GetNames(Request) returns (Response) {}
+}
+
+message Request {
+	repeated int64 userIds = 1;
+}
+
+message Response {
+	repeated User users = 101;
+}
+
+message User {
+	int64 id = 201;
+	string firstName = 202;
+	string lastName = 203;
+}
