@@ -1,6 +1,8 @@
 micro-world
 ===========
 
+This is an example micro service environment build on the go-micro framework.
+
 Generate protobuf sources
 --
 
