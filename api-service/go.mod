@@ -2,7 +2,6 @@ module github.com/postr/micro-world/api-service
 
 go 1.14
 
-//replace github.com/popstr/micro-world/common => ../common
 replace github.com/popstr/micro-world/name-service => ../name-service
 replace github.com/popstr/micro-world/email-service => ../email-service
 
